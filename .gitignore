@@ -1,0 +1,18 @@
+# Never upload your real API key
+.env
+
+# Downloaded audio files (large, not needed in the repo)
+downloads/
+
+# Generated output (keep ONE example instead, delete the rest before committing)
+outputs/*
+!outputs/.gitkeep
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS junk
+.DS_Store
